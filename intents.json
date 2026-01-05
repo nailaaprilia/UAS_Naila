@@ -1,0 +1,57 @@
+{
+  "intents": [
+    {
+      "tag": "salam",
+      "patterns": ["Halo", "Selamat pagi", "Siang", "Malam", "Permisi", "Hi", "Halo admin", "P", "halo", "Permisi Min", "Assalamu'alaikum", "Korder"],
+      "responses": [
+        "Halo Kak! Selamat datang di Toko KORDER. Silakan mampir, ada yang bisa admin bantu cari kuotanya?",
+        "Selamat datang! Mau cari voucher fisik atau isi ulang elektrik nih Kak? Admin siap bantu!",
+        "Halo! Terima kasih sudah kontak KORDER. Lagi cari promo kuota apa buat hari ini?"
+      ]
+    },
+    {
+      "tag": "lokasi_toko",
+      "patterns": ["Dimana lokasinya?", "Alamat tokonya dimana?", "Bisa COD?", "Lokasi toko fisik", "Dimana kalau mau ke toko?", "Patokannya mana?"],
+      "responses": [
+        "Toko fisik KORDER berlokasi di **Jl. Selat Malaka 9 NO. 123 (Depan Alfamart)**. Silakan mampir kalau mau beli voucher fisik langsung!",
+        "Lokasi kami di Jl. Utama No. 123 Kak. Buka setiap hari, jadi bisa langsung datang ke sini ya."
+      ]
+    },
+    {
+      "tag": "cek_harga",
+      "patterns": ["Berapa harga kuota?", "Daftar harga", "Cek harga paket", "Katalog", "Paket paling murah apa?", "Price list", "Harga voucher"],
+      "responses": [
+        "Ini daftar harga voucher fisik & elektrik paling laris di toko kami hari ini:\n\n1. Telkomsel 3GB (3 Hari) - Rp13.000\n2. Telkomsel 3GB (5 Hari) - Rp15.000\n3. TRI 3GB (3 Hari) - Rp13.000\n4. TRI 6GB (5 Hari) - Rp23.000\n5. Indosat 3GB (5 Hari) - Rp15.000\n6. Indosat 5GB (5 Hari) - Rp19.000\n\nKakak mau ambil yang voucher fisik (gesek) atau langsung isi ke nomor HP?"
+      ]
+    },
+    {
+      "tag": "voucher_fisik",
+      "patterns": ["Ada voucher fisik?", "Mau beli voucher gesek", "Voucher yang digesek ada?", "Stok voucher Tri", "Voucher Indosat ready?"],
+      "responses": [
+        "Ready Kak! Stok voucher fisik (gesek) untuk Telkomsel, Tri, dan Indosat selalu ada. Bisa ambil di toko atau admin fotokan kode geseknya setelah bayar."
+      ]
+    },
+    {
+      "tag": "jam_operasional",
+      "patterns": ["Buka jam berapa?", "Tutup jam berapa?", "Masih buka?", "Bisa beli sekarang?", "Jadwal buka toko"],
+      "responses": [
+        "Toko fisik KORDER buka setiap hari dari jam **08.00 pagi sampai 22.00 malam**. Silakan mampir sebelum tutup ya Kak!"
+      ]
+    },
+    {
+      "tag": "cara_beli",
+      "patterns": ["Gimana cara belinya?", "Cara pesan kuota", "Saya mau beli", "Prosedur pembelian", "Mau order"],
+      "responses": [
+        "Kalau lewat chat: \n1. Pilih paketnya. \n2. Transfer via E-Wallet/Bank. \n3. Admin kirim kode voucher atau isi langsung. \n\nKalau mau langsung, silakan datang ke toko fisik kami di Jl. Selat Malaka 9 NO. 123 (Depan Alfamart)!"
+      ]
+    },
+    {
+      "tag": "terima_kasih",
+      "patterns": ["Terima kasih", "Makasih ya", "Sip", "Oke admin", "Thanks"],
+      "responses": [
+        "Sama-sama Kak! Ditunggu kedatangannya di toko ya!",
+        "Siap Kak, sukses terus! Jangan lupa mampir lagi ke KORDER kalau kuotanya habis."
+      ]
+    }
+  ]
+}
